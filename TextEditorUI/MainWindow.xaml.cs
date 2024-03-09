@@ -335,6 +335,7 @@ namespace TextEditorUI
         {
             EditorRichTextBox.FontSize = CurrentFontSize;
             EditorRichTextBox.FontFamily = new FontFamily(CurrentFontFamily);
+            UpdateEditorRichTextBoxWidth();
         }
 
         private void EditorRichTextBox_SelectionChanged(object sender, RoutedEventArgs e)

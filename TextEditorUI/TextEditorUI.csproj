@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <None Remove="Assets\TE_darkgray_near_black_background_24x24.png" />
+    <None Remove="README.md" />
   </ItemGroup>
 
   <ItemGroup>
